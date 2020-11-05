@@ -1,0 +1,20 @@
+{
+  "name": "heroway-npm-rest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "json-server --watch db.json",
+    "cowsay": "node --experimental-modules ./src/cowsay.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cowsay": "^1.4.0"
+  },
+  "devDependencies": {
+    "json-server": "^0.16.2"
+  }
+}
